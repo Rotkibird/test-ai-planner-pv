@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+main {
+  padding: 1rem;
+}
