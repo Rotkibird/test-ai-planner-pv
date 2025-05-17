@@ -1,0 +1,50 @@
+{
+  "layout": "timeline",
+  "meta": {
+    "departure": "09:30",
+    "arrival": "12:14",
+    "duration": "2:44",
+    "transfers": 1,
+    "class": "2e klas",
+    "price": "€31,94"
+  },
+  "segments": [
+    {
+      "type": "departure",
+      "station": "Amsterdam Centraal",
+      "platform": "14b",
+      "icon": "station"
+    },
+    {
+      "type": "train",
+      "operator": "NS Intercity",
+      "direction": "Leeuwarden",
+      "duration": "2:14",
+      "departure": "09:30",
+      "arrival": "11:44",
+      "platform": "5",
+      "stops": 6,
+      "icon": "train"
+    },
+    {
+      "type": "walk",
+      "fromPlatform": "5",
+      "toPlatform": "1",
+      "duration": "5 min",
+      "wait": "1 min",
+      "map": true,
+      "icon": "walk"
+    },
+    {
+      "type": "train",
+      "operator": "Arriva",
+      "direction": "Harlingen Haven",
+      "departure": "11:50",
+      "arrival": "12:14",
+      "duration": "24 min",
+      "stops": 3,
+      "platform": "1",
+      "icon": "train"
+    }
+  ]
+}
